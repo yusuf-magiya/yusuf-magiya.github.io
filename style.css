@@ -497,8 +497,18 @@ footer {
   margin-top: 2rem;
 }
 
+
 footer a { color: var(--ink-4); }
 footer a:hover { color: var(--accent); }
+
+
+.no-lines .course-item {
+  border-bottom: none;
+  padding: 0.3rem 0;
+}
+.no-lines .course-list {
+  border-top: none;
+}
 
 /* ============================================================
    RESPONSIVE
